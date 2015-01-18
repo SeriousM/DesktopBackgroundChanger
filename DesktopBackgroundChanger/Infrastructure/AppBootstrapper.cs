@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using Caliburn.Micro;
+using DesktopBackgroundChanger.Sources.Wallhaven;
 using DesktopBackgroundChanger.ViewModels;
 
 namespace DesktopBackgroundChanger.Infrastructure
@@ -21,6 +22,8 @@ namespace DesktopBackgroundChanger.Infrastructure
 			_container.Singleton<IWindowManager, WindowManager>();
 			_container.Singleton<IEventAggregator, EventAggregator>();
 			_container.PerRequest<IShell, ShellViewModel>();
+
+			_container.Singleton<IWallhavenSource, WallhavenSource>();
 		}
 
 		protected override object GetInstance(Type service, string key)
