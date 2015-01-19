@@ -90,6 +90,7 @@
     <Compile Include="Sources\Wallhaven\PurityType.cs" />
     <Compile Include="Sources\Wallhaven\WallhavenSource.cs" />
     <Compile Include="Sources\WebSourceBase.cs" />
+    <Compile Include="ValueConverters\InverseBooleanToVisibilityConverter.cs" />
     <Compile Include="ViewModels\BackgroundImageViewModel.cs" />
     <Compile Include="ViewModels\ConfigurationViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />

@@ -1,6 +1,4 @@
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Threading.Tasks;
 using Caliburn.Micro;
 using DesktopBackgroundChanger.Infrastructure;
 using DesktopBackgroundChanger.Sources.Wallhaven;

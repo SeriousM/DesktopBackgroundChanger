@@ -85,5 +85,6 @@ namespace DesktopBackgroundChanger.Sources.Wallhaven
 		public string ViewsCount { get; set; }
 		public string FavoritesCount { get; set; }
 		public DateTime AddedTime { get; set; }
+		public bool ImageLoaded { get; set; }
 	}
 }
